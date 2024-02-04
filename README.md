@@ -1,2 +1,2 @@
-# MART341-WebDesign
+# Brannt Fahrney MART341-WebDesign
 My repository for Intro to Web Design &amp; Development Homework
