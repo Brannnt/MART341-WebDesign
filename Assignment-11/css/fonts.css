@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Sixtyfour';
+    src: url('../Fonts/Sixtyfour-Regular.ttf') format('truetype');
+    font-style: normal; /* Use font-weight to specify bold */
+}
+@font-face {
+    font-family: 'Jacquard12Charted';
+    src: url('../Fonts/Jacquard12Charted-Regular.ttf') format('truetype');
+    font-style: normal; /* Use font-weight to specify bold */
+}
