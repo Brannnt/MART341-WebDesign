@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-container {
+    /* Draw a solid border make it maroon */
+    border-style: solid;
+    border-width: 10px;
+    border-color: maroon;
+    text-align: center;
+    /*Add space between the border and its inside elements. */
+    padding: 100px;
+    /* Color the background dark grey. */
+    background : lightgrey;
+    width: 80%;
+    margin: auto;
+
+}
+
+div.align{
+    text-align: center;
+}
+
+.secondary-container{
+    margin: auto;
+    width:70%;
+    padding: 50px;
+    border-bottom: 5px rgb(47, 19, 19) solid;
+}
+
+#mainheader{   
+    color: rgb(68, 20, 20);
+    opacity: .7;
+    font-size: 100px;
+}
+img {
+    height:362px;
+    stroke: black, 1px;
+  }
+  .image-container {
+    border: 5px solid black; /* Adjust border properties as needed */
+    display: inline-block; /* Ensure the container wraps around the image */
+}
