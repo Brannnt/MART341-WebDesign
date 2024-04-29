@@ -1,0 +1,119 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.main-container {
+    /* Draw a solid border make it maroon */
+    border-style: solid;
+    border-width: 10px;
+    border-color: maroon;
+    text-align: center;
+    /*Add space between the border and its inside elements. */
+    padding: 10px;
+    /* Color the background dark grey. */
+    background : lightgrey;
+    width: 80%;
+    margin: auto;
+    font-family: Jacquard12Charted;
+    font-size: larger;
+}
+
+div.align{
+    text-align: center;
+}
+
+.secondary-container{
+    margin: auto;
+    width:70%;
+    padding: 10px;
+    border-bottom: 5px rgb(47, 19, 19) solid;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+#mainheader {   
+    color: rgb(68, 20, 20);
+    opacity: 1;
+    font-size: 100px;
+}
+#uncanny:hover {
+    content: url("../Images/IMG_7400.PNG");
+    display: block;
+}
+img {
+    height:362px;
+    stroke: black, 1px;
+  }
+  .image-container {
+    border: 5px solid black; /* Adjust border properties as needed */
+    display: inline-block; /* Ensure the container wraps around the image */
+}
+
+.my-box{
+    width: 50%;
+    height: 50px;
+    padding: 1em;
+    margin: 1;
+    min-width: 20px;
+    max-width: 500px;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: 10px solid #541414;
+    border-radius: 10%;
+    margin: 20em;
+    padding: 10em;
+    display: inline-block;
+}
+.overflow-scroll {
+    overflow: scroll;
+ }
+.fixed-element{
+    border: 10px solid #541414;
+    position: fixed;
+    left: 200px;
+    top: 50px;
+    width: 20%;
+    font-size: 2em;
+    opacity: 0.8;
+    text-align: center;
+    color: #000;
+    background-color: rgb(255, 238, 0);
+    padding: 1em;
+}
+/* dropdown*/
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #000000;
+    background-color: #fffa6b;
+}
